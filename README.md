@@ -79,7 +79,8 @@ df = pd.DataFrame(result_list)
 df.to_csv("/content/drive/MyDrive/Stop_Detection/stop_detection_result.csv", mode='w', index=False)
 ```
 
-
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file
 
 
 
