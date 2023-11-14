@@ -1,8 +1,8 @@
-# Stop Sign Detection Using YOLO and Automatic Geotag retrieval
+# Stop Sign Detection Using YOLO and Automatic Geotag Retrieval
 
-Summary: The program attached to this summary report detects stop signs in an image and extracts geographical coordinates of the image from its metadata, if available. This code uses the YOLO8 library for stop detection and PIL for extracting geolocation data of the image.
+Summary: The program attached to this report detects stop signs in an image and extracts geographical coordinates of the image from its metadata, if available. This code uses the YOLO8 library for stop sign detection and PIL for extracting geolocation data of the image.
 
-Inputs and Outputs: Input to the code is a sequence of images stored in the ‘image’ folder. The code processes all images and summarizes the results in a csv file ‘stop_detection_result.csv’ which contains image names, confidence Score in detecting stop signs, Latitudes, and Longitudes. Additionally, the folder ‘stop_detection_result_images’ contains the original images with a box around all detected objects. YOLO8 pre-trained model detects 79 different objects. The traffic-related objects detectable by the pre-trained model include vehicles, stop signs, traffic lights, parking meters, and fire hydrants.
+Inputs and Outputs: Input to the code is a collection of images stored in the ‘image’ folder. The code processes all images and summarizes the results in a csv file ‘stop_detection_result.csv’ which contains image names, confidence score from YOLO in detecting stop signs, Latitudes, and Longitudes. Additionally, the folder ‘stop_detection_result_images’ contains the original images with a box around all detected objects. YOLO8 pre-trained model detects 79 different objects. The traffic-related objects detectable by the pre-trained model include vehicles, stop signs, traffic lights, parking meters, and fire hydrants.
 
 # Installation and Usage
 
