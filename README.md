@@ -6,7 +6,7 @@ Inputs and Outputs: Input to the code is a collection of images stored in the â€
 
 # Installation and Usage
 
-[This google colab page](link-colab) offers step by step instruction on how to run the program.
+[This google colab page](https://colab.research.google.com/drive/190iQ5FTIP6idK8R11gAzCcqp4K9i6uWt?usp=sharing) offers step by step instruction on how to run the program.
 
 **Step 1**: Loading required libraries
 To run the code, we need the following libraries. Note that, library ultralytics is not installed on a Colab notebook by default. Therefore, we need to first install it onto the notebook using pip.
